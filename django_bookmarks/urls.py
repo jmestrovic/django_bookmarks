@@ -7,6 +7,7 @@ from bookmarks.views import *
 
 urlpatterns = patterns('',
     (r'^$', main_page),
+    (r'^user/(\w+)/$', user_page),
     # Examples:
     # url(r'^$', 'django_bookmarks.views.home', name='home'),
     # url(r'^django_bookmarks/', include('django_bookmarks.foo.urls')),
